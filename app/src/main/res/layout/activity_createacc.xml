@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_createacc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_createacc"
+        android:hint="@string/hint_mobile_no"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_mobile"
+        android:hint="@string/hint_password"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/create_btn"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_weight="1"
+            android:text="@string/title_create_acc" />
+
+    </LinearLayout>
+</RelativeLayout>

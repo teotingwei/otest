@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    text size-->
+    <dimen name="button_text_size">15dp</dimen>
+
+    <!--    padding size-->
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="padding_xlarge">20dp</dimen>
+
+    <!--    margin-->
+    <dimen name="margin_small">5dp</dimen>
+
+    <!--    layout height-->
+    <dimen name="text_box_height">50dp</dimen>
+
+</resources>

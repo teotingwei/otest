@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">OCBC Payment</string>
+    <string name="message_press_back_to_exit">Press back button again to exit app.</string>
+    <string name="hint_mobile_no">Mobile No.</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_topup_amt">i.e 10</string>
+    <string name="hint_search_payer">Search Payer</string>
+    <string name="hint_transfer_amt">Amount to transfer</string>
+    <string name="label_login">Login</string>
+    <string name="label_account">Account</string>
+    <string name="label_btn_create">Create</string>
+    <string name="label_create_acc">Create Account?</string>
+    <string name="label_search">Search</string>
+    <string name="label_intro_name">Welcome: </string>
+    <string name="label_intro_bal">Your balance is: </string>
+    <string name="label_transfer">Transfer</string>
+    <string name="label_topup">Topup</string>
+    <string name="title_create_acc">Create Account</string>
+    <string name="error_message_loginpage">Please input a mobile no and password</string>
+    <string name="error_message_createaccpage">Please input a name, mobile no and password</string>
+    <string name="error_message_login_return">Mobile or Password is wrong. Please try again</string>
+    <string name="error_message_input_amt">Please input an amount</string>
+    <string name="toast_acc_created">Account created</string>
+    <string name="toast_fatal_error">Fatal Error</string>
+    <string name="toast_negative_int">Please input more than 0</string>
+    <string name="toast_topup_success">Topup is success</string>
+    <string name="toast_logout">Logged out successfully</string>
+</resources>
